@@ -1,0 +1,36 @@
+
+
+{% block head %}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="{{ asset('css/default.css') }}" />
+{% endblock %}
+
+{% block title 'AddressBook' %}
+
+{% block body %}
+
+    {% block content_header %}
+       <h2>Address Book</h2> 
+    {% endblock %}
+
+    {% block navigation %}
+       <section id="navigation">
+            <ul>
+                <li>
+                    <a href="{{ path('acme_address_book_homepage')}}">Index</a>
+                </li>
+                <li>
+                   <a href="{{ path('acme_address_book_addaddress')}}">Add Address to Book</a>
+                </li>
+            </ul>
+       </section>
+    {% endblock %}
+
+   
+    <section class="main-container">
+    {% block main_container%}
+    {% endblock %}   
+    </section>
+    
+  
+{% endblock %}

@@ -1,0 +1,28 @@
+/* 
+    Document   : default.css
+    Created on : Jul 18, 2013, 11:17:48 PM
+    Author     : Aditya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#header
+{
+    background-color: #EEEEEE; 
+    height: 30px;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+
+#navigation
+{
+    float:left;
+    width:30%;
+    border:1px solid appworkspace;
+    border-radius:5px;
+}
+

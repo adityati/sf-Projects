@@ -1,0 +1,18 @@
+{% extends 'AcmeAddressBookBundle:Default:layout.html.twig' %}
+
+ {% block main_container%}
+<div>
+  
+    <form action="{{ path('acme_address_book_addaddress')}}" method="POST">
+        {{ form_row(oForm.firstName) }}
+        {{ form_row(oForm.lastName) }}
+        {{ form_row(oForm.companyName) }}
+        {{ form_row(oForm.street) }}
+        {{ form_row(oForm.housenumber) }}
+        {{ form_row(oForm.postcode) }}
+        {{ form_row(oForm.city) }}
+        {{ form_row(oForm.country) }}
+        <input type="submit" value="send">
+    </form>  
+</div>
+ {% endblock %} 

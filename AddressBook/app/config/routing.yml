@@ -1,0 +1,4 @@
+acme_address_book:
+    resource: "@AcmeAddressBookBundle/Resources/config/routing.yml"
+    prefix:   /
+

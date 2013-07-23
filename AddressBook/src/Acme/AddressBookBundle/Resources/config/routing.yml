@@ -1,0 +1,9 @@
+acme_address_book_homepage:
+    pattern:  /addressbook/
+    defaults: { _controller: AcmeAddressBookBundle:Default:index }
+ 
+acme_address_book_addaddress:
+    pattern:  /addressbook/addaddress
+    defaults: { _controller: AcmeAddressBookBundle:Default:addaddress }
+ 
+   
